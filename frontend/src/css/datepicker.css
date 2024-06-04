@@ -1,0 +1,119 @@
+.react-datepicker-wrapper {
+    display: inline-block;
+}
+
+.react-datepicker__input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.react-datepicker__input-container input {
+    width: 120px;
+    padding: 7px 8px 7px 13px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.react-datepicker-popper {
+    z-index: 1000;
+}
+
+.react-datepicker {
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.react-datepicker__close-icon {
+    background-color: #333;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__day--hovered {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: rgba(0, 123, 255, 0.15);
+}
+
+.react-datepicker__day:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+.react-datepicker__day--today {
+    font-weight: bold;
+}
+
+.react-datepicker__month-container {
+    padding: 0 10px;
+}
+
+.react-datepicker__month {
+    margin: 0;
+}
+
+.react-datepicker__day-names {
+    display: flex;
+}
+
+.react-datepicker__day-name {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.react-datepicker__current-month {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.react-datepicker__navigation {
+    top: 10px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.react-datepicker__navigation--previous {
+    left: 10px;
+}
+
+.react-datepicker__navigation--next {
+    right: 10px;
+}
+
+.react-datepicker__navigation:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+.react-datepicker__navigation--previous:hover {
+    border-right-color: #007bff;
+}
+
+.react-datepicker__navigation--next:hover {
+    border-left-color: #007bff;
+}
+
+/* Date Picker Overlay (for portal) */
+.react-datepicker__portal {
+    position: fixed;
+    z-index: 1000;
+}

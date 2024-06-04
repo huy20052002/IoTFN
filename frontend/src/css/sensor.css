@@ -1,0 +1,36 @@
+.temp {
+    background: linear-gradient(to top right, #ffd1d1, #ff0000);
+}
+
+.humid {
+    background: linear-gradient(to top right, #dedeff, #0000ff);
+}
+
+.light {
+    background: linear-gradient(to top right, #ffffd7, #ffff00);
+}
+
+.sensor-title {
+    gap: 5px;
+}
+
+.temp,
+.humid,
+.light {
+    padding: 8px;
+    border: 0.5px solid #9d9d9d;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+
+#tempValue,
+#humidValue,
+#lightValue {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 540;
+    font-style: italic;
+}
